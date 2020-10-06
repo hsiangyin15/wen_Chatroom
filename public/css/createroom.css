@@ -1,0 +1,103 @@
+.chat_back {
+  margin: 0;
+  font-family: 'Oswald', 'Open Sans Condensed', 'Dancing Script', 'Noto Sans TC', 'Noto Serif TC', serif, sans-serif;
+  background-color:#dae1e7;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_word {
+  margin: 0;
+  margin-top: 3vmin;
+  color: white;
+  font-size: 10vmin;
+  text-align: center;
+}
+
+.text_input {
+  opacity: 0.7;
+}
+
+.menu {
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+
+  opacity: 0.7;
+  font-size:5vmin;
+  margin: 0 ;
+  width:30vw;
+  height:100vh;
+  margin-left: 3vw;
+}
+.createpage {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.data_area {
+  display: inline-flex;
+}
+
+.talk {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
+.option_btn {
+  color: #333333;
+}
+
+.option_btn:hover {
+  color: white;
+}
+
+
+.createpage3 {
+  display: inline-flex;
+}
+
+.roomname{
+  font-size: 4vmin;
+}
+
+.createpage2 {
+  position:relative;
+  margin-left:7vw;
+  margin-bottom: 40vh;
+  flex-direction: row;
+}
+
+.createroom_title{
+  color: #333333;
+  opacity: 0.8;
+  font-size: 8vmin;
+}
+
+.showroom{
+  font-family: 'Noto Sans TC';
+  color:#565d47;
+}
+
+.logout_btn {
+  font-family: 'Oswald';
+  font-size: 5vmin;
+  opacity: 0.7;
+}
+
+.logout_btn:hover{
+  color: #27496d;
+  opacity: 1;
+}
+
+.enterROOMbtn{
+  font-family: 'Oswald';
+  font-size: 3vmin;
+  opacity: 0.7;
+}
+.enterROOMbtn:hover{
+  color: #27496d;
+  opacity: 1;
+}

@@ -1,0 +1,47 @@
+.bg {
+  font-family: 'Oswald', 'Open Sans Condensed', 'Dancing Script', 'Noto Sans TC', 'Noto Serif TC', serif, sans-serif;
+  background-size: cover;
+  margin: 0;
+
+}
+
+.txt{
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  margin:10vh 20vw 10vh 20vw;
+  padding: 5vh 10vw 5vh 10vw;
+font-size: 2vw;
+}
+
+.accounttitle{
+  color: #333333;
+  font-size: 4vw;
+}
+
+.accounttxt{
+  color: #333333;
+  font-size: 2vw;
+  font-family: 'Oswald';
+}
+
+.typename{
+  color: #333333;
+  font-family: 'Oswald';
+  font-size: 1.5vw;
+}
+
+.accountbtn{
+  margin-top: 4vh;
+  color: #333333;
+  font-size: 2vw;
+  opacity: 0.6;
+  font-family: 'Oswald';
+}
+.accountbtn:hover{
+  color: #27496d;
+  opacity:1;
+}
+.backbtn{
+  font-size: 1.7vw;
+}

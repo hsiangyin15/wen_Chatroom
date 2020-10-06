@@ -1,0 +1,126 @@
+.chat_back {
+  margin: 0;
+  font-family: 'Oswald', "黑體-繁","微軟正黑體",'Open Sans Condensed', 'Dancing Script', 'Noto Sans TC', 'Noto Serif TC', serif, sans-serif;
+  background-color: #dae1e7;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.menu_word {
+  margin: 0;
+  margin-top: 3vmin;
+  color: white;
+  font-size: 10vmin;
+  text-align: center;
+}
+
+.text_input {
+  opacity: 0.7;
+  font-size: 1.7vw;
+  font-family: 'Oswald';
+}
+
+.menu {
+  margin: 0 ;
+  width:30vw;
+  height:100vh;
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+
+  opacity: 0.7;
+  font-size:5vmin;
+
+
+  margin-left: 3vw;
+}
+
+
+
+.txt {
+  display: inline-flex;
+  align-items: flex-end;
+  font-size: 3vmin;
+
+}
+
+.data_area {
+  display: inline-flex;
+}
+
+.show {
+  color: #333333;
+  position: relative;
+  margin-left: 0.5rem;
+  max-height: 70vh;
+  overflow:auto;
+}
+
+#showtime{
+  margin: 0;
+  color: #27496d;
+  font-size:2vmin;
+}
+
+.talk {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.text_input {
+  width: 100vmin;
+  height: 10vmin;
+}
+
+
+.option_btn {
+  color: #333333;
+}
+
+.option_btn:hover {
+  color: white;
+}
+
+
+.createpage2 {
+  display: inline-flex;
+}
+
+.logout_btn {
+  font-family: 'Oswald';
+  font-size: 5vmin;
+  opacity: 0.7;
+}
+
+.logout_btn:hover{
+  color: #27496d;
+  opacity: 1;
+}
+.indexbox{
+  margin: 0;
+  background-color: #708090;
+text-align: left;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.indexword{
+  margin: 0;
+    padding: 0;
+}
+
+.stickerbox{
+  background-color: white;
+  opacity: 0.8;
+  margin: 0;
+  padding:1vmin;
+}
+
+.sticker{
+  background-size: cover;
+  display: inline;
+  height: 9vmin;
+  width:9vmin;
+}

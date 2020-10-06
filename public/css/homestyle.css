@@ -1,0 +1,68 @@
+.home {
+  margin: 0;
+  font-family: 'Oswald', 'Open Sans Condensed', 'Dancing Script', 'Noto Sans TC', 'Noto Serif TC', serif, sans-serif;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background-size: 100% auto;
+  animation-name: background_img;
+  animation-duration: 25s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+}
+
+@keyframes background_img {
+  0% {
+    background-image: url("images/sunset.jpg");
+  }
+
+  25% {
+    background-image: url("images/star.jpg");
+  }
+
+  50% {
+    background-image: url("images/glacier.jpg");
+  }
+
+  75% {
+    background-image: url("images/pond.jpg");
+  }
+
+  100% {
+    background-image: url("images/sunset.jpg");
+  }
+}
+
+.home_title {
+  font-size: 15vw;
+  margin-bottom: 0;
+}
+
+.home_word{
+  font-size: 2vw;
+  margin-top: 0;
+}
+
+.signin{
+  text-align: right;
+  background-color: #f7f7f7;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  opacity: 0.7;
+}
+
+.signin_word{
+  color:#333333;
+  margin: 0;
+}
